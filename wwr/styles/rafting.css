@@ -68,7 +68,7 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.8;
     background-color: var(--accent1-color);
     color: #fff;
     /* white text for contrast with background */
@@ -76,6 +76,22 @@ h1 {
 
 article {
     position: absolute;
+    top: 310px;
+    width: 96%;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.8;
+    background-color: var(--accent1-color);
+    color: #fff;
+    /* white text for contrast with background */
+}
+
+h2 {
+    position: absolute;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: #fff;
+    /* white text for contrast with background */
 }
 
 .hero article img {
