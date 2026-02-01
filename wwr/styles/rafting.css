@@ -21,6 +21,10 @@ header {
     color: var(--accent2-color);
 }
 
+header img {
+    float: left;
+}
+
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
@@ -86,7 +90,8 @@ article {
 }
 
 h2 {
-    position: absolute;
+    position: relative;
+    width: 100%;
     text-align: center;
     background-color: var(--accent1-color);
     color: #fff;
