@@ -20,6 +20,8 @@
 header {
     color: var(--accent2-color);
     display: grid;
+    align-items: center;
+
 }
 
 header img {
