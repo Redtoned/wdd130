@@ -95,6 +95,8 @@ nav {
 }
 
 .history-content {
+    background-color: var(--accent2-color);
+    color: black;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -116,10 +118,10 @@ nav {
 .adventure h2 {
     background-color: var(--secondary-color);
     color: black;
-    margin-bottom: 20px;
 }
 
 .adventure-grid {
+    background-color: var(--accent2-color);
     display: flex;
     justify-content: space-around;
     gap: 10px;
@@ -150,6 +152,10 @@ footer {
 footer p {
     text-align: center;
     color: white;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 header,
