@@ -95,6 +95,7 @@ nav a {
 
 .history h2 {
     background-color: var(--accent2-color);
+    color: black;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -120,6 +121,7 @@ nav a {
 
 .adventure h2 {
     background-color: var(--accent2-color);
+    color: black;
 }
 
 .adventure-grid {
