@@ -68,6 +68,10 @@ nav a {
     text-align: center;
 }
 
+.hero article {
+    position: absolute;
+}
+
 .hero-content {
     display: flex;
     align-items: center;
@@ -90,6 +94,7 @@ nav a {
 }
 
 .history h2 {
+    background-color: var(--accent2-color);
     text-align: center;
     margin-bottom: 20px;
 }
@@ -111,6 +116,10 @@ nav a {
     margin-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
+}
+
+.adventure h2 {
+    background-color: var(--accent2-color);
 }
 
 .adventure-grid {
