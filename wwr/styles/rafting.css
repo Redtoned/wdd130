@@ -33,7 +33,7 @@ header {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    max-width: 1000px;
+    max-width: 100%;
 }
 
 header img {
@@ -76,9 +76,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
-    margin-top: 5px;
-
+    padding: 10px;
 }
 
 .hero-content p {
@@ -122,6 +120,7 @@ nav a {
 .adventure h2 {
     background-color: var(--secondary-color);
     color: black;
+    margin-bottom: 20px;
 }
 
 .adventure-grid {
@@ -148,7 +147,6 @@ nav a {
 footer {
     background: var(--accent1-color);
     display: flex;
-    padding: 10px;
     justify-content: flex-end;
     align-items: center;
 }
@@ -156,11 +154,6 @@ footer {
 footer p {
     text-align: center;
     color: white;
-}
-
-.socialmedia span {
-    width: 25px;
-    height: 25px;
 }
 
 header,
@@ -180,7 +173,7 @@ nav,
 p,
 section,
 article {
-    margin: 16px;
+    margin: 8px;
     padding: 8px;
 }
 
