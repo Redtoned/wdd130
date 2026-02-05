@@ -29,11 +29,9 @@ section {
 }
 
 header {
-    color: var(--accent2-color);
+    background-color: var(--accent1-color);
     display: grid;
     grid-template-columns: auto 1fr;
-    align-items: center;
-    max-width: 100%;
 }
 
 header img {
@@ -44,23 +42,21 @@ nav {
     padding: 20px 40px;
     display: flex;
     justify-content: center;
-    align-self: center;
 }
 
-.navigation-bar {
+.navigation-bar ul {
     background: var(--accent1-color);
     padding: 20px 40px;
+    list-style-type: none;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
-nav a {
+.navigation-bar a {
     background-color: white;
-    border: 1px solid var(--accent1-color);
-    padding: 8px 16px;
     text-decoration: none;
     color: black;
+    padding: 8px 16px;
 }
 
 .hero {
