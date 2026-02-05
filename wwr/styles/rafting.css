@@ -19,6 +19,7 @@
 
 header {
     color: var(--accent2-color);
+    display: grid;
 }
 
 header img {
