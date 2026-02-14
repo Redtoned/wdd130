@@ -39,6 +39,7 @@
             </div>
         </section>
 
+        <!-- Contact Form Section -->
         <section class="contact-form-section">
             <h2>Get in Touch</h2>
             <form>
@@ -50,24 +51,35 @@
 
                 <fieldset>
                     <legend>Message Purpose</legend>
-                    <input type="radio" name="purpose" value="general">
-                    <input type="radio" name="purpose" value="reservation">
-                    <input type="radio" name="purpose" value="suggestion">
+                    <label for="general-inquiry">
+                        <input type="radio" id="general-inquiry" name="purpose" value="general">
+                        General Inquiry
+                    </label>
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
                 </fieldset>
 
                 <label for="message">Message</label>
                 <textarea id="message" name="message"
                   placeholder="Type your message here"></textarea>
 
-                <label class="checkbox">
-                    <input type="checkbox" name="subscribe"> Please subscribe me to the monthly
-                    newsletter
+                <label class="checkbox" for="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to
+                    the
+                    monthly newsletter
                 </label>
 
                 <button type="submit">Get in Touch!</button>
             </form>
         </section>
 
+        <!-- Employee Profiles Section -->
         <section class="employee-profiles">
             <h2>We Are Here to Serve You</h2>
             <div class="employee-grid">
