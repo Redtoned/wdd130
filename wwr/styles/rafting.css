@@ -59,6 +59,127 @@ nav {
     padding: 8px 16px;
 }
 
+.company-info {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.company-info h1 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.company-info p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.map-container iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+    border: none;
+    margin-top: 20px;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+    background-color: white;
+    padding: 30px;
+    margin-top: 40px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact-form-section h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.contact-form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form-section label {
+    font-weight: bold;
+    color: var(--accent1-color);
+}
+
+.contact-form-section input,
+.contact-form-section textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form-section textarea {
+    height: 120px;
+}
+
+.contact-form-section fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.contact-form-section button {
+    padding: 12px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form-section button:hover {
+    background-color: #1b3b1d;
+}
+
+/* Employee Profiles Section */
+.employee-profiles {
+    background-color: #dcdcdc;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.employee-profiles h2 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.employee-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.employee-grid figure {
+    text-align: center;
+    width: 200px;
+}
+
+.employee-grid img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.employee-grid figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
 .hero {
     position: relative;
     text-align: center;

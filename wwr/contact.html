@@ -26,54 +26,68 @@
     </header>
 
     <main>
-        <div class="hero">
-            <img src="images/fun_wwr_trip.jpg" alt="Fun White Water Rafting Trip. ">
-            <h1>White Water Fundamentals</h1>
-            <article>
-                <img src="images/successful_trip.jpg" alt="Happy Clients after Successful Trip. ">
-                <div class="hero-content">
-                    <p>COMPANY PURPOSE: FILLER TEXT</p>
-                </div>
-            </article>
-        </div>
+        <section class="company-info">
+            <h1>White Water Rafting Company</h1>
+            <p>123 Main River Street, Kolob, California</p>
+            <p>+1 999 999 9999</p>
+            <p>info@whitewater.com</p>
 
-        <section>
-            <div class="history">
-                <h2>History</h2>
-                <div class="history-content">
-                    <p>COMPANY HISTORY: FILLER TEXT</p>
-                    <div class="history-img"> <img src="images/history-img.jpg"
-                          alt="The River we Guide On"></div>
-                    <p>COMPANY HISTORY: FILLER TEXT</p>
-                </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAP_LINK" width="600"
+                  height="350" frameborder="0" style="border:0" allowfullscreen="" loading="lazy">
+                </iframe>
             </div>
         </section>
 
-        <section>
-            <div class="adventure">
-                <h2>Adventure Awaits You!</h2>
-                <div class="adventure-grid">
-                    <figure>
-                        <img src="images/adventure-1.jpg" alt="Whitewater Rafting Boats">
-                        <figcaption>caption</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/adventure-2.jpg" alt="Whitewater Rafting Paddles">
-                        <figcaption>caption</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/adventure-3.jpg" alt="Closeup of Additional Rafting Gear">
-                        <figcaption>caption</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/adventure-4.jpg" alt="Rafter Waving at Camera">
-                        <figcaption>caption</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/adventure-5.jpg" alt="Focused Whitewater Rafters">
-                        <figcaption>caption</figcaption>
-                    </figure>
-                </div>
+        <!-- Contact Form Section -->
+        <section class="contact-form-section">
+            <h2>Get in Touch</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email">
+
+                <fieldset>
+                    <legend>Message Purpose</legend>
+                    <label><input type="radio" name="purpose" value="general"> General
+                        Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation
+                        Question</label>
+                    <label><input type="radio" name="purpose" value="suggestion"> Website
+                        Suggestion</label>
+                </fieldset>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"
+                  placeholder="Type your message here"></textarea>
+
+                <label class="checkbox">
+                    <input type="checkbox" name="subscribe"> Please subscribe me to the monthly
+                    newsletter
+                </label>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+
+        <!-- Employee Profiles Section -->
+        <section class="employee-profiles">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/employee1.jpg" alt="John Smith, River Guide">
+                    <figcaption>John Smith – River Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Sarah Johnson, Reservation Manager">
+                    <figcaption>Sarah Johnson – Reservation Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Mike Davis, Safety Coordinator">
+                    <figcaption>Mike Davis – Safety Coordinator</figcaption>
+                </figure>
             </div>
         </section>
 
