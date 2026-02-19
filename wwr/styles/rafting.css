@@ -208,6 +208,41 @@ nav {
     background: var(--primary-color);
 }
 
+.trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.trips-table th,
+.trips-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.trips-table th {
+    background-color: #0077cc;
+    color: white;
+}
+
+.trips-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #005fa3;
+}
+
 .history h2 {
     background-color: var(--secondary-color);
     color: black;
